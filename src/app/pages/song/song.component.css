@@ -1,0 +1,71 @@
+* {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg,
+      rgb(0, 0, 0) 0%,
+      rgb(10, 10, 10) 90%);
+      background-image: url("/assets/image/background8.jpg");
+      background-size: cover;
+
+}
+
+img {
+  background: transparent;
+  margin: 40px;
+  
+
+
+}
+
+.mp3_player-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/assets/image/background8.jpg");
+  background-size: cover;
+
+}
+
+.controls button:hover {
+  background-color: #4CAF50;
+ 
+}
+.controls button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  width: 40px;
+  height: 35px;
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 22px;
+  transition: 0.3s;
+  background-image: none;
+ 
+  
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+ background-image: none;
+}
+.music-player-body {
+  width: 320px;
+  height: 390px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5), 0 6px 20px 0 rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  
+}
+#audioplayer, audio{
+width: 100px;
+height:20px ;
+border-radius: none;
+}
